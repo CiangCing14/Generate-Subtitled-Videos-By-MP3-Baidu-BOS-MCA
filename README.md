@@ -14,4 +14,8 @@ bigger than Python 3.9.*.
 
 # 使用方法 (Usage)
 
-`python main.py`
+1.根据注释依次填写好[MP3s PATH]、[AK]、[SK]、[BOS Bucket Name]。
+
+Fill in [MP3s PATH], [AK], [SK], and [BOS Bucket Name] in sequence according to the notes.
+
+2.`python main.py`
