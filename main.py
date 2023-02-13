@@ -5,3 +5,4 @@ import result
 import gen_srt
 import 20split
 import gen_videos
+import delete_all_files
