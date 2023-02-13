@@ -1,0 +1,6 @@
+logging
+baidubce
+opencv-python
+eyed3
+moviepy
+json
