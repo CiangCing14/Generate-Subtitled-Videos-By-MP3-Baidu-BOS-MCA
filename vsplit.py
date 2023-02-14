@@ -17,4 +17,4 @@ for a in os.walk(sys.path[0]):
             s=[[z[0],z[1],a20sp(z[2])]for z in s]
             s=['\n'.join(z)for z in s]
             s='\n\n'.join(s)
-            f=open('%s/%s_new.srt'%(a[0],b.split('.')[0]),'w+');f.write(s);f.close()
+            f=open('%s/%s_new.srt'%(a[0],'.'.join(b.split('.')[:-1])),'w+');f.write(s);f.close()
